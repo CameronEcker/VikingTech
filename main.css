@@ -1,8 +1,9 @@
 body {
 background-image: url('background.jpg');
 background-size: cover;
+margin: 0;
+padding: 0;
 }
-
 h1 {
 color: red;
 text-align: center;
@@ -10,42 +11,32 @@ border-style: dashed;
 border-color: Yellow;
 text-transform: uppercase;
 }
-
 p {
 color: blue;
 font-size: 26px;
 text-align: Center;
 }
 
-ul {
-list-style-type: none;
+#nav {
+width: auto;
 margin: auto;
-padding: 10px;
-overflow: hidden;
-background-color: grey;
-position: fixxed;
-text-align: center;
-text-shadow: 2px 2px green;
-border-radius: 25px;
+list-style:none
 }
 
-li {
-	float: left;
+#nav li {
+float: left;
 }
 
-li a { 
+#nav a {
 display: block;
-color: white;
 text-align: center;
-padding: 14px 16px;
+width: 150px; /* fixed width */
 text-decoration: none;
-border-radius: 25px;
 }
-
-li a:hover {
+#nav li a:hover {
 background-color: red;
 }
-li a.active {
+#nav li a.active {
 background-color: orange;
 text-shadow: 4px 4px green;
 }
