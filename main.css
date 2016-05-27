@@ -18,25 +18,27 @@ text-align: Center;
 }
 
 #nav {
-width: auto;
-margin: auto;
-list-style:none
+text-align: center;
+background-color: grey;
+}
+
+#nav ul {
+display: inline-block;
+list-style: none;
 }
 
 #nav li {
-float: left;
+display: inline;
 }
 
 #nav a {
-display: block;
-text-align: center;
-width: 150px; /* fixed width */
+float: left;
 text-decoration: none;
+padding: 0 30px; /* variable width */
 }
 #nav li a:hover {
 background-color: red;
 }
 #nav li a.active {
 background-color: orange;
-text-shadow: 4px 4px green;
 }
