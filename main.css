@@ -19,10 +19,14 @@ text-align: Center;
 
 ul {
 list-style-type: none;
-margin: 0;
-padding: 0;
+margin: auto;
+padding: 10px;
 overflow: hidden;
 background-color: grey;
+position: fixxed;
+text-align: center;
+text-shadow: 2px 2px green;
+border-radius: 25px;
 }
 
 li {
@@ -35,7 +39,13 @@ color: white;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
+border-radius: 25px;
 }
 
 li a:hover {
 background-color: red;
+}
+li a.active {
+background-color: orange;
+text-shadow: 4px 4px green;
+}
