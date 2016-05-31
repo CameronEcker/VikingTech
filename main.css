@@ -34,10 +34,25 @@ text-decoration: none;
 padding: 0 40px; /* variable width */
 border-radius: 30px;
 }
+#nav li a:link {
+	text-decoration: none;
+	}
+#nav li a:visited {
+	text-decoration: none;
+	color: blue;
+	}
 #nav li a:hover {
-background-color: red;
+	background: yellow;
+	color: blue;
+	width: 80px;
+	height: 30px;
+	text-align: center;
 }
 #nav li a.active {
-background: -moz-linear-gradient(right, red, grey, yellow);
+background: blue;
 border-radius: 25px;
+color: yellow;
+}
+span.crosshair {
+	cursor: crosshair;
 }
