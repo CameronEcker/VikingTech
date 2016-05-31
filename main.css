@@ -5,11 +5,7 @@ margin: 0;
 padding: 0;
 }
 h1 {
-color: red;
 text-align: center;
-border-style: dashed;
-border-color: Yellow;
-text-transform: uppercase;
 }
 p {
 color: blue;
@@ -19,7 +15,7 @@ text-align: Center;
 
 #nav {
 text-align: center;
-background-color: grey;
+text-transform: Uppercase;
 }
 
 #nav ul {
@@ -32,13 +28,16 @@ display: inline;
 }
 
 #nav a {
+background-color: black;
 float: left;
 text-decoration: none;
-padding: 0 30px; /* variable width */
+padding: 0 40px; /* variable width */
+border-radius: 30px;
 }
 #nav li a:hover {
 background-color: red;
 }
 #nav li a.active {
-background-color: orange;
+background: -moz-linear-gradient(right, red, grey, yellow);
+border-radius: 25px;
 }
